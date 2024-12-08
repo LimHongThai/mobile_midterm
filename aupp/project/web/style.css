@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+
+nav {
+    margin-top: 20px;
+}
+
+nav a:hover {
+    color: #dc3d4b;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    background-color: #dc3d4b;
+    height: 3px;
+    width: 0;
+    left: 0;
+    top: 1.7rem;
+    transition: 500ms;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    color: white;
+}
+
+.top-left {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    text-align: center;
+}
+
+.centered1 {
+    position: absolute;
+    top: 129%;
+    left: 3%;
+    text-align: center; 
+}
+
+.centered2 {
+    position: absolute;
+    top: 100%;
+    left: 37%;
+    text-align: center; 
+}
+
+.container1 {
+    text-align: center;
+    padding: 100px;
+    display: block;
+    color: white;
+    margin-top: -10px;
+}
+
+#jett {
+    float: left;
+    margin:auto;
+    padding-left: 85px;
+} 
+
+#yoru {
+    float: right;
+    margin: auto;
+}
+
+#reyna {
+    float: left;
+    margin:auto;
+    padding-left: 85px;
+}
+
+#pheonix {
+    float: right;
+}
+
+.align {
+    display: flex;
+}
+
+.container2 {
+    display: block;
+}
+
+.container3 {
+    display: block;
+    padding-top: 65px;
+
+}
+
+#arouha {
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 25%;
+    padding: 30px;
+    margin-top: 38px;
+    margin-left: 175px;
+    color: white;
+}
+
+#arouha:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    transition: transform 400ms ease-in-out;
+    box-shadow: 10px 10px 10px #dc3d4b;
+}
+
+#juliano {
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 25%;
+    padding: 30px;
+    margin-top: 38px;
+    margin-left: 845px;
+    color: white;
+}
+
+
+#juliano:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    transition: transform 400ms ease-in-out;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+#cloudy {
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 25%;
+    padding: 30px;
+    margin-top: 38px;
+    margin-left: 175px;
+    color: white;
+}
+
+#cloudy:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    transition: transform 400ms ease-in-out;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+#clumsy {
+    background-color: black;
+    opacity: 80%;
+    text-align: center;
+    display: block;
+    position: absolute;
+    width: 25%;
+    padding: 30px;
+    margin-top: 38px;
+    margin-left: 845px;
+    color: white;
+}
+
+#clumsy:hover {
+    z-index: 1;
+    transform: scale(1.25);
+    transition: transform 400ms ease-in-out;
+    box-shadow: 10px 10px 10px #dc3d4b;
+}
+
+body {
+    font-family: 'Coda', cursive;
+    background-color: black;
+    width: fit-content;
+}
+
+.button1 {
+    position: absolute;
+    right: 13%;
+    top: 3%;
+    background-color: transparent;
+    color: white;
+    border-width: 0px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Coda', cursive;
+}
+
+.button2 {
+    position: absolute;
+    right: 7%;
+    top: 3%;
+    padding: 5px;
+    border-width: 0px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Coda', cursive;
+}
+
+.button1:hover {
+    color: #dc3d4b;
+    text-shadow: 0 0 5em currentColor;
+}
+
+.button2:hover {
+    color: #dc3d4b;
+}
+
+header a:hover {
+    color: #dc3d4b;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding-left: 30rem;
+    padding-right: 30rem;
+    margin-top: 25px;
+}
+
+.container4 {
+    display: flex;
+    margin-left: 365px;
+}
+
+.box {
+    display: block;
+    border: 1px solid #dc3d4b;
+    width: fit-content;
+    padding: 25px;
+    margin: 100px;
+    text-align: center;
+}
+
+.glow-button {
+    color: #dc3d4b;
+    background: #000000b6;
+    font-size: 35px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: #dc3d4b 0.125em solid;
+    padding: .25em 1em;
+    border-radius: .25em;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em currentColor;
+    box-shadow: inset 0 0 0.5em 0 #dc3d4b, 0 0 0.5em #dc3d4b;
+    position: relative;
+}
+
+/* .glow-button::before {
+    content: '';
+    position: absolute;
+    background: #dc3d4b;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+    opacity: 1;
+    pointer-events: none;
+} */
+
+.glow-button:hover {
+    background: #dc3d4b;
+    color: black;
+    text-shadow: none;
+}
+
+.glow-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em #dc3d4b;
+    opacity: 0;
+    transition: opacity 100ms linear;
+}
+
+.glow-button:hover::after {
+    opacity: 1;
+}
+
+.gif {
+    opacity: 0.3;
+    position: relative;
+    top: 45px;
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+
+.start1 {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 5px;
+}
+
